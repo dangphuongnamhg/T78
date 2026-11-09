@@ -1,0 +1,4 @@
+.chat-head .ai-status { color: #c08a6d !important; font-size: 8px !important; }
+.chat-head .ai-status.openai { color: #6da985 !important; }
+.chat-head .ai-status.error { color: #ba626b !important; }
+.provider-badge { display: block; margin: 6px 3px 0; color: #b28a65; font-size: 8px; }

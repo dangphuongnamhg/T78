@@ -1,0 +1,29 @@
+.staff-privacy{display:flex;gap:10px;align-items:flex-start;padding:14px 16px;margin:22px 0 15px;background:#eef7f1;border:1px solid #dfefe5;border-radius:13px;color:#6f8d7b;font-size:10px;line-height:1.7}
+.staff-privacy svg{flex:none;margin-top:2px;color:#69a582}
+.staff-privacy b{color:#537662}
+.staff-metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.staff-metric{min-height:112px;display:flex;flex-direction:column;gap:5px}
+.staff-metric>span{font-size:8px;letter-spacing:1.2px;color:#a09db1;font-weight:700}
+.staff-metric>b{font:700 25px Manrope,sans-serif;color:#44415d}
+.staff-metric>small{font-size:9px;color:#a09dad}
+.staff-metric-alert>b{color:#c1796f}
+.staff-grid{display:grid;grid-template-columns:minmax(250px,.8fr) minmax(380px,1.5fr);gap:14px;margin-top:14px;align-items:start}
+.staff-grid h2{font-size:15px;margin:6px 0 0;letter-spacing:-.3px}
+.staff-moods,.staff-alerts{min-height:210px}
+.staff-mood-row{display:grid;grid-template-columns:100px 1fr 26px;gap:10px;align-items:center;margin-top:16px;font-size:10px;color:#747286}
+.staff-mood-row>div{height:7px;background:#f1eff8;border-radius:99px;overflow:hidden}
+.staff-mood-row i{height:100%;display:block;background:#9a8ce7;border-radius:inherit}
+.staff-mood-row>b{text-align:right;color:#514e68;font-size:10px}
+.staff-empty,.staff-loading,.staff-error{font-size:11px;color:#9996a8;line-height:1.7}
+.staff-empty{margin:22px 0 0}
+.staff-error{color:#b26868}
+.staff-alerts .panel-heading>svg{color:#c88f71}
+.staff-alert{padding:13px 0;border-bottom:1px solid #f0eff4}
+.staff-alert:last-child{border-bottom:0;padding-bottom:2px}
+.staff-alert>div{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.staff-alert>div>b{font-size:10px;color:#504d66}
+.staff-alert time{font-size:8px;color:#a09dad;white-space:nowrap}
+.staff-alert p{margin:8px 0 6px;padding:10px 11px;background:#fbf9f7;border-radius:9px;color:#686579;font-size:10px;line-height:1.65;white-space:pre-wrap;overflow-wrap:anywhere}
+.staff-alert>small{font-size:8px;color:#b58a72}
+@media(max-width:850px){.staff-metrics{grid-template-columns:repeat(2,1fr)}.staff-grid{grid-template-columns:1fr}}
+@media(max-width:430px){.staff-metrics{gap:8px}.staff-metric{padding:14px;min-height:100px}.staff-mood-row{grid-template-columns:82px 1fr 22px}}
